@@ -1,0 +1,22 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  feast-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: feast-dev
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+    depends_on:
+      - redis
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+    environment:
+      PYTHONUNBUFFERED: "1"
+    command: bash -lc "sleep infinity"
