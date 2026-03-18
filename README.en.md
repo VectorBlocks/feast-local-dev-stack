@@ -23,6 +23,7 @@ This project is intentionally focused on **local development and demos** rather 
 | Feast | v0.61.0 with Redis online store |
 | Redis | 7-alpine, exposed on port 6379 |
 | Feast Web UI | Beta UI on port 8888 (run `make ui`) |
+| Jupyter Lab | Port 8889, walkthrough notebook (`notebooks/feast_walkthrough.ipynb`, run `make notebook`) |
 | Example feature repo | Customer stats feature view, e-commerce synthetic data generator |
 | Demo apps | Online feature fetch (`app/fetch_demo.py`), historical features (`app/training_dataset_demo.py`) |
 | Makefile targets | `up`, `apply`, `materialize`, `fetch`, `ui`, `notebook`, `bootstrap`, `shell` |

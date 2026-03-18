@@ -23,6 +23,7 @@ Feast 기반 feature store를 빠르게 구축·테스트·데모할 수 있는 
 | Feast | v0.61.0, Redis online store 포함 |
 | Redis | 7-alpine, 포트 6379 노출 |
 | Feast Web UI | 포트 8888 베타 UI (`make ui` 실행) |
+| Jupyter Lab | 포트 8889, 단계별 워크스루 노트북 (`make notebook` 실행, `notebooks/feast_walkthrough.ipynb`) |
 | 예시 feature repo | 이커머스 고객(customer_stats) feature view, 합성 데이터 생성기 |
 | 데모 앱 | Online feature 조회 (`app/fetch_demo.py`), Historical features (`app/training_dataset_demo.py`) |
 | Makefile 타깃 | `up`, `apply`, `materialize`, `fetch`, `ui`, `notebook`, `bootstrap`, `shell` |
