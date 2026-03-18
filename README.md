@@ -1,4 +1,4 @@
-# feast-local-dev-stack
+# Feast 로컬 개발 스택
 
 > [English](README.en.md) | 한국어
 
