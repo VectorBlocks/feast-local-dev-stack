@@ -33,9 +33,8 @@ This project is intentionally focused on **local development and demos** rather 
 ### 1. Clone and prepare
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/VectorBlocks/feast-local-dev-stack.git
 cd feast-local-dev-stack
-cp .env.example .env
 ```
 
 ### 2. Start services

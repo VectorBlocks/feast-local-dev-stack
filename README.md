@@ -33,9 +33,8 @@ Feast 기반 feature store를 빠르게 구축·테스트·데모할 수 있는 
 ### 1. 클론 및 준비
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/VectorBlocks/feast-local-dev-stack.git
 cd feast-local-dev-stack
-cp .env.example .env
 ```
 
 ### 2. 서비스 시작
