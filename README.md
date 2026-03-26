@@ -213,4 +213,4 @@ make fetch
 
 ## 라이선스
 
-MIT
+Apache License 2.0
